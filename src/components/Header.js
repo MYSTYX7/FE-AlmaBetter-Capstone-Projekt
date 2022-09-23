@@ -8,8 +8,9 @@ const Header = () => {
       <img alt="almabetter-logo" className="w-28 my-3 mx-6" src={almalogo} />
       <div className="px-36 bg-[rgba(245,241,236,255)]">
         <div className="font-bold py-4 text-xl">Create Flashcard</div>
-        <div className="pb-3 border-b-[3px]">
+        <div className="pb-3 border-b-[3px] flex">
           <NavLink
+          
             to="/"
             className={({ isActive }) =>
               isActive
