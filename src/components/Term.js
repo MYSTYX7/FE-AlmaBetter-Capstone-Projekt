@@ -18,12 +18,11 @@ const Term = () => {
       },
     });
   console.log("🚀 ~ file: Term.js ~ line 12 ~ Term ~ errors", errors);
-  console.log("🚀 ~ file: Term.js ~ line 16 ~ Term ~ values", values);
 
   return (
     <div className="flex gap-4">
-      <div className="rounded-full bg-red-500 w-7 h-7 flex basis-1/12 justify-center items-center text-white">
-        <p>1</p>
+      <div className="rounded-full bg-red-500 w-7 h-7 mx-10 flex basis-1/12 justify-center items-center text-white">
+        <div>1</div>
       </div>
       <div className="input-block rounded flex-col basis-4/12">
         <label htmlFor="termTitle" className="input-label font-medium">

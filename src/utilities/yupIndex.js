@@ -1,5 +1,6 @@
 import * as Yup from "yup";
 
+//Validation Schema using Formik Yup
 export const groupSchema = Yup.object({
   title: Yup.string()
     .min(3, "! Enter atleast 3 characters")

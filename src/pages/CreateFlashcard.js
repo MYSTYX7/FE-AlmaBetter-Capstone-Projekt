@@ -21,6 +21,7 @@ const CreateFlashcard = () => {
         action.resetForm();
       },
     });
+
   return (
     <div className="px-12 sm:px-20 md:px-28 lg:px-36 bg-[rgba(245,241,236,255)] h-full">
       <form className="py-5 border" onSubmit={handleSubmit}>
