@@ -22,7 +22,7 @@ const CardDesign = () => {
         {/* need to add logic for viewing only two lines */}
       </div>
       <a
-        href="a"
+        href="flashcarddetails"
         className="font-bold mx-auto py-1 text-red-600 flex justify-center border-2 border-red-600 rounded hover:text-white hover:bg-red-600 transition hover:duration-700 w-1/2 hover:mx-auto ease-in-out"
       >
         View Cards
